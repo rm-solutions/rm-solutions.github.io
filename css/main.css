@@ -139,8 +139,6 @@ margin-top:20px;
 .aboutus {
     margin-top: 15px;
     margin-right: 50px;
-    height: 25px;
-    width: 125px;
 }
 
 
@@ -160,8 +158,6 @@ margin-top:20px;
 .dropdown {
   position: relative;
   display: inline-block;
-  height: 25px;
-  width: 125px;
 }
 
 .dropdown-content {
