@@ -137,8 +137,9 @@ margin-top:20px;
 }
 
 .aboutus {
-    margin-top: 1.5%;
+    margin-top: 1px;
     margin-right: 50px;
+    position:relative;
 }
 
 
