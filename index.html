@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Home</title>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/icons/manifest.json">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="/css/shift.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.10.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/smoothscroll.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
+  </head>
+
+  <body>
+<!-- Top navbar containing only the company's logo -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <a href="/"><img class="logo" alt="Logo" src="logo/logo.jpg"></a>
+      </div>
+    </div>
+    <div class="pull-right aboutus">
+        <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">About us</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+    </div>
+
+    <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+  </nav>
+  <!-- Carousel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  <li data-target="#myCarousel" data-slide-to="1"></li>
+  <li data-target="#myCarousel" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+  <div class="item active">
+    <img src="pics/carousel3.jpg" alt="Chania">
+  </div>
+
+  <div class="item">
+    <img src="pics/carousel2.jpg" alt="Chania">
+  </div>
+
+  <div class="item">
+    <img src="pics/carousel1.jpg" alt="Flower">
+  </div>
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+
+    <div class="wrapper container cntr" id="scrollToThis">
+        <ul class="nav nav-tabs cenmen">
+            <li class="active"><a class="scrollLink" href="#start" data-toggle="tab">Construction</a></li>
+            <li><a class="scrollLink" href="#outside" data-toggle="tab">Outside</a></li>
+            <li><a class="scrollLink" href="#inside" data-toggle="tab">Inside</a></li>
+            <li><a class="scrollLink" href="#top_to_bottom" data-toggle="tab">Top to bottom</a></li>
+            <li><a class="scrollLink" href="#references" data-toggle="tab">Links to references</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="start">
+                <div class="text">
+                    <h2>Discription</h2>
+                    <hr>
+                    <p>This is the first line of discription</p>
+                    <p>Further discription</p>
+                    <p>Conclusion and/or further info</p>
+                    <p>This will contain a footnote</p>
+                    <hr>
+                </div>
+                <div class="pics">
+                    <img src="pics/tools.jpg"/>
+                </div>
+            </div>
+            <div class="tab-pane" id="outside">
+                <div class="text">
+                    <h2>Outside works</h2>
+                    <hr>
+                    <p>How it's done</p>
+                    <p>Pictures and info on outside jobs done</p>
+                    <p>Info about experience and techniques</p>
+                    <p>This category's footnotes.</p>
+                    <hr>
+                </div>
+                <div class="pics">
+                    <img src="pics/scaffold.jpg"/>
+                </div>
+            </div>
+            <div class="tab-pane" id="inside">
+                <div class="text">
+                    <h2>Info on working indoors</h2>
+                    <hr>
+                    <p>What type of indoors jobs we offer</p>
+                    <p>Pictures of works in progress</p>
+                    <p>Footnotes group</p>
+                    <p>footnotes group continued</p>
+                    <hr>
+                </div>
+                <div class="pics">
+                    <img src="pics/inside.jpg"/>
+                </div>
+            </div>
+            <div class="tab-pane" id="top_to_bottom">
+                <div class="text">
+                    <h2>Techniques</h2>
+                    <hr>
+                    <p>How we do it.</p>
+                    <p>What to expect</p>
+                    <p>Footnotes</p>
+                    <hr>
+                </div>
+                <div class="pics">
+                    <img src="pics/top.jpg"/>
+                </div>
+            </div>
+            <div class="tab-pane" id="references">
+                <div class="text">
+                    <h2>References</h2>
+                    <p>How to contact us.</p>
+                    <p><a href="http://google.com">Google</a></p>
+                    <p>Link example</p>
+                    <hr>
+                </div>
+                <div class="pics">
+                    <img src="pics/reference.jpg"/>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /wrapper -->
+
+    <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.10.1.min.js"><\/script>')</script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <div class="lower">
+        <div class="container">
+            <h2>Why consider us</h2>
+            <p>See works in progress</p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src= "pics/1.jpg">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="pics/2.jpg">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="pics/3.jpg">
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainActivities">
+	  <div class="container">
+		<div class="row">
+		<h3> What you need to know</h3>
+	      <div class="col-md-4">
+			<h3>Activity</h3>
+			<p>Info on activities</p>
+			<p><a href="https://www.facebook.com/fffhhjjkmmkmamsnnjdjjdnfncnndk?fref=ts" class="fb"><strong>Contact us on facebook</strong></a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Other info</h3>
+			<p>This is where additional information will go</p>
+			<p><a href="http://www.google.com">Example Link</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Contact</h3>
+			<p>This is where contact information will be found</p>
+			<p><a href="http://www.google.com">Example Link</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+    <footer>
+        <div class="navbar navbar-default container footer">
+            <div class="container-fluid text-center">
+                <div class="footer">All rights reserved | R&amp;M Solutions</div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>

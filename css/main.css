@@ -1,0 +1,182 @@
+body {
+    background-color: #F8F8F8 !important;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-color: rgb(160, 190, 200);
+  height: 250px;
+}
+
+.jumbotron a {
+    color: #5a5a5a;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.mainActivities {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mainActivities a {
+  color: #5a5a5a;
+}
+
+.lower {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.lower p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.mainActivities {
+    background-color: #F8F8F8;
+    margin-bottom: 50px;
+}
+
+.cntr{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #F8F8F8;
+    height: 270px;
+}
+
+.cenmen{
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+.wrapper {
+    background-color: #F8F8F8;
+}
+
+.pics{
+    float:right;
+}
+
+.text{
+    float: left;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.rights {
+    margin: auto;
+}
+
+.carousel {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    margin-top: 25px;
+    margin-right: 25px;
+    text-decoration-color: #214E61;
+}
+
+.footer {
+    margin: 15px;
+}
+
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+
+.tab-pane{
+    clear: both;
+}
+
+.fb{
+    text-decoration: none;
+    text-decoration-color: blue;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.aboutus {
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+
+.dropbtn {
+  background-color: #214E61;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
